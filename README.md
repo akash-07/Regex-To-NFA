@@ -14,7 +14,7 @@ Repository to transform Regex into Finite State Automata and Optimal forms of FS
      ```haskell
      ghci> printNFA (build reg)
      ``` 
-- **NFA for (a*b)* **   
+- **NFA for ((a*b)*)**   
      ```haskell
      *Main> printNFA (build reg)
       States:
