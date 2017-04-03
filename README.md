@@ -1,20 +1,20 @@
 # Regex-To-FSA
 Repository to transform Regex into Finite State Automata and Optimal forms of FSA. 
 
- - ** Load the file **
+ - **Load the file**
       ```haskell
       ghci> :l regExpToNFA.hs
       ```
- - **Type in the regular expression in the form. (Inside the code itself** 
+ - **Type in the regular expression in the form. (Inside the code itself)** 
      ```haskell
      reg = (a*b)* -> Star (Then (Star (Literal 'a')) (Literal 'b') ) 
      reg = (ab | a*) -> Or ((Then (Literal 'a') (Literal 'b'))  (Star (Literal 'a')) )
      ```
-- ** Then type **
+- **Then type**
      ```haskell
      ghci> printNFA (build reg)
      ``` 
-- ** NFA for (a*b)* **   
+- **NFA for (a*b)***   
      ```haskell
      *Main> printNFA (build reg)
       States:
@@ -40,4 +40,4 @@ Repository to transform Regex into Finite State Automata and Optimal forms of FS
 
        Final States:
        [9]
-      ```
+     ```
