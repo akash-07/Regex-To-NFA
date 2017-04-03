@@ -1,5 +1,5 @@
 # Regex-To-FSA
-Repository to transform Regex into Finite State Automata and Optimal forms of FSA. 
+Repository to transform Regex into Finite State Automata and Optimal forms of FSA. The features of Haskell that we are trying to highlight using this project are polymorphism, type classes, higher order functions and modularization. The pattern matching capability of Haskell is the feature that we use the most to match with the correct expression.
 
  - **Load the file.**
       ```haskell
