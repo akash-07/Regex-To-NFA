@@ -42,3 +42,15 @@ Repository to transform Regex into Finite State Automata and Optimal forms of FS
        Final States:
        [9]
      ```
+     
+     **Opening the dot file.**
+The dot file so generated can be viewed in following ways :
+
+ 1.   Convert it to .png/jpg using any online converter
+ 2.   Download GraphViz software and use gvedit
+ 3.   If you use linux, you can install graphviz using apt and then do the following 
+         i. dot -Tpng out.dot > out.png (If the output file name is "out.dot") 
+         ii. display out.png
+
+In this way you finally get the image of DFA. You can define the delta function as per your transitions in the finite automata.
+
