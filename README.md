@@ -53,5 +53,6 @@ The dot file so generated can be viewed in following ways :
          i. dot -Tpng out.dot > out.png (If the output file name is "out.dot") 
          ii. display out.png
 
-In this way you finally get the image of DFA. You can define the delta function as per your transitions in the finite automata.
+In this way you finally get the image of DFA. 
+You can define the delta function as per your transitions in the finite automata.
 
