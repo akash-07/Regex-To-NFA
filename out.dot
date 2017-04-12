@@ -1,0 +1,20 @@
+digraph out {
+ rankdir = LR ;
+ ""1"" [shape=circle , label=""1"" ,color=black];
+ ""2"" [shape=circle , label=""2"" ,color=black];
+ ""3"" [shape=circle , label=""3"" ,color=black];
+ 
+ ""1"" [shape=circle , label= ""1"", color=green];
+ 
+ 
+ ""3"" [shape=doublecircle , color=red];
+ "1" -> "1" [label = "'a'"];
+ "1" -> "2" [label = "'b'"];
+ "2" -> "3" [label = "'a'"];
+ 
+ 
+ 
+ node [shape=none, lavel=initialState, style = invis];
+"_newState_1" -> ""1"" [color = green];
+ 
+}
