@@ -44,7 +44,7 @@ Repository to transform Regex into Finite State Automata and Optimal forms of FS
      ```
      
      **Opening the dot file.**
-The dot file so generated can be viewed in following ways :
+```The dot file so generated can be viewed in following ways :
 
  1.   Convert it to .png/jpg using any online converter
  2.   Download GraphViz software and use gvedit
