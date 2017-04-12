@@ -15,6 +15,6 @@ digraph out {
  
  
  node [shape=none, lavel=initialState, style = invis];
-"_newState_1" -> ""1"" [color = green];
+"_newState_1" -> "1" [color = green];
  
 }
