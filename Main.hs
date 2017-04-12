@@ -27,6 +27,4 @@ strig = dfa2DiGraphWithNoSyncSt ex1 "dot"
 main = do
   print (strig)
   dfa2graphviz2file ex1 "out"
-  --runGraphvizCommand dot Char dfa2graphviz ex1 
-  --(Eq sy, Ord a, Show sy, Show a)
-  -- => Dfa a sy -> [Char] -> IO (
+
